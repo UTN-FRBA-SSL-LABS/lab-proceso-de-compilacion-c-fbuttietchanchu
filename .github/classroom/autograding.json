@@ -101,7 +101,7 @@
     {
       "name": "R1. Respuesta: LINEAS_I es un numero de 3 o 4 digitos",
       "setup": "",
-      "run": "grep -qE '^LINEAS_I=[0-9]{3,4}$' proceso_compilacion.md",
+      "run": "grep -qE '^LINEAS_I=[0-9]{3,4}$' README.md",
       "input": "", "output": "", "comparison": "included",
       "timeout": 10, "points": 4
     },
