@@ -4,7 +4,6 @@
 **Materia:** Sintaxis y Semántica de los Lenguajes (UTN-FRBA)
 
 **Tema:** Proceso de compilación: Del código fuente al ejecutable
-
 ---
 
 ## Antes de empezar: ¿Cómo funciona este laboratorio?
