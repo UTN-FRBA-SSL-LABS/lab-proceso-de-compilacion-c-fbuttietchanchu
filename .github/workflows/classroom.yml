@@ -8,7 +8,7 @@ on:
       - "*.s"
       - "*.c"
       - "salidas/**"
-      - "README.md"
+      - "readme.md"
 
 permissions:
   checks: write
