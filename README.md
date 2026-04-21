@@ -676,7 +676,7 @@ AREA_EN_S=LLAMADA
 **P8.** Encontrá en `programa.s` la etiqueta `sumar:` o `_sumar:` y copiá
 las primeras 4 líneas de instrucciones que le siguen.
 
-> **R:** pushl	%ebp
+> **R:**pushl	%ebp
 	movl	%esp, %ebp
 	movl	_llamadas, %eax
 	addl	$1, %eax
@@ -684,7 +684,7 @@ las primeras 4 líneas de instrucciones que le siguen.
 Explicá en términos generales qué hacen esas instrucciones
 (usá los comentarios del laboratorio como guía):
 
-> **R:** El pushl guarda el frame anterior, el movl crea uno nuevo, el movl que le sigue carga la variable global y el addl la incrementa.
+> **R:**El pushl guarda el frame anterior, el movl crea uno nuevo, el movl que le sigue carga la variable global y el addl la incrementa.
 
 ---
 
